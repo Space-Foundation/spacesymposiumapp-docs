@@ -1,43 +1,74 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Event Agenda",
+    Svg: require("@site/static/img/agenda.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Users can view the schedule of events, including virtual events,
+        ensuring they never miss out on important sessions.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Speaker Information",
+    Svg: require("@site/static/img/conference.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Detailed information about speakers at the event, providing insights
+        into the expertise and topics covered.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Live Streaming",
+    Svg: require("@site/static/img/live-streaming.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Integration with Vimeo for live streaming of events, allowing attendees
+        to participate from anywhere.
+      </>
+    ),
+  },
+  {
+    title: "Push Notifications",
+    Svg: require("@site/static/img/notifications.svg").default, // Replace with actual path
+    description: (
+      <>
+        Utilizes Firebase Cloud Messaging for sending timely notifications to
+        users, keeping them informed and engaged.
+      </>
+    ),
+  },
+  {
+    title: "Development Environment",
+    Svg: require("@site/static/img/development.svg").default, // Replace with actual path
+    description: (
+      <>
+        Built with React Native and TypeScript, featuring Redux for state
+        management and styled components for modular styling.
+      </>
+    ),
+  },
+  {
+    title: "Scalability and Ease of Use",
+    Svg: require("@site/static/img/scalability.svg").default, // Replace with an appropriate SVG path
+    description: (
+      <>
+        Engineered for growth, the app seamlessly scales to meet increasing
+        demand while maintaining a user-friendly interface that ensures a
+        smooth, intuitive experience for all users.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
