@@ -6,4 +6,4 @@ sidebar_position: 1
 
 import VideoEmbed from '@site/src/components/VideoEmbed/VideoEmbed';
 
-<VideoEmbed src="https://www.loom.com/embed/7be3e9e8dec140ec95270f9015549bad?sid=a9d6989c-6ad0-44f5-b36c-5df709d8d39b" title="Video Title" />
+<VideoEmbed src="https://www.loom.com/embed/a9c1f69b794b4e54838c19815c84e827?sid=ababac26-2fbc-4c5f-95fa-58ebed3fc151" title="Video Title" />
