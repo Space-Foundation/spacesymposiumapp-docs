@@ -72,7 +72,7 @@ Space Symposium App is a mobile application developed using React Native, design
 - **Home**: The landing screen of the app, showcasing event highlights.
 - **My Agenda**: Allows users to view and manage their event schedules.
 - **Speakers**: Displays information about all speakers at the conference.
-- **Map**: Shows a map with markers representing events
+- **Interactive ExhibitMap**: Shows a map with markers representing events (Interactive Map by: **Map Your Show**)
 - **Notifications**: A section for viewing push notifications received by the user.
 
 ## External Integrations
@@ -104,17 +104,16 @@ Space Symposium App is a comprehensive solution designed to enhance the attendee
 
 ### Core Features
 
-1. **User Authentication:** Integration with Firebase Auth suggests the app supports user authentication, including sign-in and sign-up functionalities.
-2. **Database Operations:** Utilization of Firebase Firestore indicates the app's capability to perform CRUD (Create, Read, Update, Delete) operations on a cloud database.
-3. **Remote Configuration:** Firebase RemoteConfig integration allows for dynamically changing the app's behavior and appearance without publishing an app update.
-4. **Notifications:** The presence of Firebase/Core and potentially Firebase Messaging (inferred from the context) suggests the app supports sending push notifications to users.
-5. **Analytics:** Firebase/Core integration implies the collection of analytics data to understand user behavior and improve the app.
+1. **User Authentication:** User Auth is handled outside the app, users register with launchsquid and receive a confirmation id which they use in conjunction with the user email to login.
+2. **Database Operations:** Submits My Agenda items to a MySQL database and syncs user data with the app. Submits a token to AWS RDS Postgres to register for push notifications.
+3. **Notifications:** The presence of Firebase/Core and potentially Firebase Messaging (inferred from the context) suggests the app supports sending push notifications to users.
+4. **Analytics:** Firebase/Core integration implies the collection of analytics data to understand user behavior and improve the app.
 
 ### UI/UX Features
 
 1. **Vector Icons:** Use of [RNVectorIcons](file:///Users/CMcNeil/Sites/SpaceSymposiumApp/ios/Podfile#52%2C8-52%2C8) indicates the app includes customizable vector icons for enhanced UI design.
-2. **Device Information:** Integration with `react-native-device-info` for accessing device information, possibly used for analytics or feature customization based on the device.
-3. **Environment Configuration:** Use of `react-native-dotenv` for managing environment variables, likely for configuring different environments (development, staging, production).
+2. **Device Information:** Integration with `react-native-device-info` for accessing device information used for analytics or feature customization based on the device.
+3. **Environment Configuration:** Use of `react-native-dotenv` for managing environment variables for configuring different environments (development, staging, production).
 4. **Dropdown Picker:** Incorporation of `react-native-dropdown-picker` for dropdown menus in the app's UI.
 5. **UI Toolkit:** Use of `react-native-elements` for additional UI components and theming.
 
