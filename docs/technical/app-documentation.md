@@ -111,7 +111,7 @@ Space Symposium App is a comprehensive solution designed to enhance the attendee
 
 ### UI/UX Features
 
-1. **Vector Icons:** Use of [RNVectorIcons](file:///Users/CMcNeil/Sites/SpaceSymposiumApp/ios/Podfile#52%2C8-52%2C8) indicates the app includes customizable vector icons for enhanced UI design.
+1. **Vector Icons:** App includes customizable vector icons for enhanced UI design.
 2. **Device Information:** Integration with `react-native-device-info` for accessing device information used for analytics or feature customization based on the device.
 3. **Environment Configuration:** Use of `react-native-dotenv` for managing environment variables for configuring different environments (development, staging, production).
 4. **Dropdown Picker:** Incorporation of `react-native-dropdown-picker` for dropdown menus in the app's UI.
