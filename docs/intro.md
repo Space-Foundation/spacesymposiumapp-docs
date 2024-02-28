@@ -10,6 +10,8 @@ Let's discover **Space Symposium App**.
 
 Get started by **installing the app**.
 
+- **Delete the old App** if you currently have it installed on your device.
+
 - Download and install Space Symposium from App Store or Google Play Store.
 
 ### Once the app is installed, you can start using it.
