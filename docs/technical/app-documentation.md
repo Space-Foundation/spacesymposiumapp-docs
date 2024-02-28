@@ -106,8 +106,8 @@ Space Symposium App is a comprehensive solution designed to enhance the attendee
 
 1. **User Authentication:** User Auth is handled outside the app, users register with launchsquid and receive a confirmation id which they use in conjunction with the user email to login.
 2. **Database Operations:** Submits My Agenda items to a MySQL database and syncs user data with the app. Submits a token to AWS RDS Postgres to register for push notifications.
-3. **Notifications:** The presence of Firebase/Core and potentially Firebase Messaging (inferred from the context) suggests the app supports sending push notifications to users.
-4. **Analytics:** Firebase/Core integration implies the collection of analytics data to understand user behavior and improve the app.
+3. **Notifications:** Firebase Cloud Messaging supports sending push notifications to users.
+4. **Analytics:** Google Analytics data to understand user behavior and improve the app.
 
 ### UI/UX Features
 
